@@ -5,7 +5,10 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	  <StartupObject>NewProject1.Assignment.Loop</StartupObject>
+	  <StartupObject>NewProject1.Krushnamurthy</StartupObject>
+	 
+		  
+	  
 	  
 	  
   </PropertyGroup>

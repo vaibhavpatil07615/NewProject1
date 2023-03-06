@@ -313,6 +313,81 @@ namespace NewProject1.OOPS
               //  p.display();
             }
         }
+    class Account
+    {
+        int basicsalary;
+        float gst;
+        float ta;
+        float da;
+        //float grosssalary;
+
+        public int Basicsalary
+        {
+            set
+            {
+                basicsalary = value;
+            }
+            get
+            {
+                return basicsalary;
+            }
+        }
+        public float Gst
+        {
+            set
+            {
+                gst = value;
+            }
+            get
+            {
+                return gst;
+            }
+        }
+        public float Ta
+        {
+            set
+            {
+                ta = value;
+            }
+            get
+            {
+                return ta;
+            }
+        }
+        public float Da
+        {
+            set
+            {
+                da = value;
+            }
+            get
+            {
+                return da;
+            }
+        }
+       
+
+    }
+    class Encapsulate
+    {
+        static void Main(string[] args)
+        {
+            Account a = new Account();
+            a.Basicsalary = 30000;
+            a.Da = 0.8f;
+            a.Gst = 0.18f;
+            a.Ta = 0.6f;
+
+            Console.WriteLine(a.Basicsalary);
+            Console.WriteLine(a.Da);
+            Console.WriteLine(a.Ta);
+            Console.WriteLine(a.Gst);
+
+
+
+
+        }
+    }
     
     
 }

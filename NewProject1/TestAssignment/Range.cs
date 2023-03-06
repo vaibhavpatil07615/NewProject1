@@ -180,7 +180,7 @@ namespace NewProject1.TestAssignment
             Console.WriteLine("fibbonacci series");
             int a = 0;
             int b = 1;
-            int c;
+            int c =0;
             Console.WriteLine(a);
             Console.WriteLine(b);
 
@@ -193,6 +193,7 @@ namespace NewProject1.TestAssignment
 
 
                 Console.WriteLine(c);
+            
                 Console.WriteLine("sum of factorial of numbers between 1 to 20");
                 int fact = 1;
                 int sum = 0;

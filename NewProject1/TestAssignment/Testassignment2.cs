@@ -10,7 +10,7 @@ namespace NewProject1.TestAssignment
     {
         static void Main(string[] args)
         {
-            /* for (int i = 1; i <= 100; i++)
+             for (int i = 1; i <= 100; i++)
              {
                  if (i % 5 == 0)
                  {
@@ -18,9 +18,9 @@ namespace NewProject1.TestAssignment
                  }
                  else { Console.WriteLine(i); }
 
-             }*/
+             }
 
-            /* Console.WriteLine("factors of given number");
+            Console.WriteLine("factors of given number");
              Console.WriteLine("enter number");
              int num = int.Parse(Console.ReadLine());
              for (int i = 1; i <= num; i++)
@@ -29,7 +29,7 @@ namespace NewProject1.TestAssignment
                  {
                      Console.WriteLine(i);
                  }
-             }*/
+             }
 
             for (int i = 1; i <= 50; i++)
             {
@@ -62,17 +62,17 @@ namespace NewProject1.TestAssignment
 
             Console.WriteLine("harshad number");
             Console.WriteLine("enter number");
-            int num = int.Parse(Console.ReadLine());
+            int num2 = int.Parse(Console.ReadLine());
             int sum = 0;
             int count = 0;
-            while (num > 0)
+            while (num2 > 0)
             {
                 int digit = num % 10;
                 sum = sum + digit;
-                num = num / 10;
+                num2 = num2 / 10;
 
             }
-            if (num % sum == 0)
+            if (num2 % sum == 0)
             {
                 Console.WriteLine("harshad niven number");
             }

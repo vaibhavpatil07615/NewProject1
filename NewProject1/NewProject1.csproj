@@ -4,13 +4,15 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-	  <StartupObject>NewProject1.Krushnamurthy</StartupObject>
-	 
-		  
+	  <Nullable>enable</Nullable>
+	  <StartupObject>NewProject1.Collection.QueueDemo</StartupObject>
+
+
+
 	  
-	  
-	  
+
+
+
   </PropertyGroup>
 
 </Project>

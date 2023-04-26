@@ -32,7 +32,9 @@ namespace NewProject1.OOPS
 
         public void show()
         {
-            Console.WriteLine("company name ="+Companyname+"\n" + "companyorigin ="+ companyorigin+"\n"+ "type = " + type +"\n"+ "wearble ="+ wearble+"\n"+ "tv="+ tv+"\n"+ "mobile = "+ mobile);
+            Console.WriteLine("company name ="+base.Companyname+"\n" + "companyorigin ="+ base.companyorigin+"\n"+"product="+
+                base.products+"\n"+ "type = " + base.type + "\n" + "wearble =" + base.wearble + "\n" + "tv=" + tv + "\n" + "mobile = " + mobile);
+
         }
       
 

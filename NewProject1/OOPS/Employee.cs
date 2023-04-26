@@ -187,78 +187,7 @@ namespace NewProject1.OOPS
 
 
     }
-    class Employee2 
-    {
-        // this keyword usage (28feb assignment)
-        int id;
-        int salary;
-        string name;
-        float DA;
-        float grosssalary;
-        float sum;
-
-
-        public Employee2(int id, string name, int salary) // constructor
-
-
-        {
-            this.id = id;
-            this.name = name;
-            this.salary = salary;
-            this.DA = DA;
-            this.grosssalary = grosssalary;
-            this.sum = sum;
-
-            this.Addition();
-            }
-
-        public int Addition()
-        {
-            if (salary <= 20000)
-            {
-                DA = 0.5f;
-                sum = 0.5f * salary;
-                grosssalary = sum + salary;
-
-            }
-            else if (salary > 20000 && salary < 50000)
-            {
-                DA = 0.8f;
-                sum = 0.8f * salary;
-                grosssalary = sum + salary;
-            }
-            else
-                Console.WriteLine("salary not in range");
-            this.Display();
-            return (salary);
-        }
-
-
-
-
-    public void Display()
-    {
-            Console.WriteLine("gross salary of employee = " + grosssalary);
-        }
-
-
-
-
-    }
-
-
-    class Emp
-    {
-        static void Main(string[] args)
-        {
-            Employee2 e = new Employee2(123,"vaibhav patil",10000);
-            
-            
-            
-            
-
-        }
-    }
+  
     class Product2
     {
         
